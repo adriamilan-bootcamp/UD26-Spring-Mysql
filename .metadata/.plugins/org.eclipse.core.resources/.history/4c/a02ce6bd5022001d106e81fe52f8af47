@@ -1,0 +1,44 @@
+package com.adriamilan.ppej.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.adriamilan.ppej.dao.IPiezaDAO;
+import com.adriamilan.ppej.dto.Pieza;
+
+public class PiezaServiceImpl implements IPiezaService {
+	
+	@Autowired
+	IPiezaDAO piezaDao;
+
+	@Override
+	public List<Pieza> listPiezas() {
+		return piezaDao.findAll();
+	}
+
+	@Override
+	public Pieza piezaXID(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pieza savePieza(Pieza pieza) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Pieza editPieza(Pieza pieza) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePieza(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

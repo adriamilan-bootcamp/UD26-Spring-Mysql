@@ -1,0 +1,8 @@
+package com.adriamilan.ppej.service;
+
+public class ProveedorServiceImpl implements IProveedorService {
+
+	@Autowired
+	IProveedorDAO pDao;
+	
+}

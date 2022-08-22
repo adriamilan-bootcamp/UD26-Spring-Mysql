@@ -1,0 +1,11 @@
+package com.adriamilan.ppej.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class ProveedoresPiezas {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
+}

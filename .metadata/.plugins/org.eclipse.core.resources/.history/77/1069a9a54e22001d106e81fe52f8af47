@@ -1,0 +1,5 @@
+package com.adriamilan.ppej.dao;
+
+public interface IProveedoresPiezasDAO extends JpaRepository<ProveedoresPiezas, Long> {
+
+}

@@ -1,0 +1,12 @@
+package com.adriamilan.ppej.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Proveedor {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+}

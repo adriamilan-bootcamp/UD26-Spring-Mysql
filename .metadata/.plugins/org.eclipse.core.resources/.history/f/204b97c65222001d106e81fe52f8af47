@@ -1,0 +1,22 @@
+package com.adriamilan.ppej.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.ppej.dto.Proveedor;
+
+@RestController
+@RequestMapping("/api")
+public class ProveedorController {
+
+	@Autowired
+	ProveedorServiceImpl pservide
+	
+	@GetMapping("/proveedores")
+	public List<Proveedor> listProveedores() {
+		return 
+	}
+}

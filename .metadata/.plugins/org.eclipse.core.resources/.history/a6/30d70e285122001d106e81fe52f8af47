@@ -1,0 +1,12 @@
+package com.adriamilan.ppej.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.adriamilan.ppej.dao.IProveedoresPiezasDAO;
+
+public class ProveedoresPiezasServiceImpl implements IProveedoresPiezasService {
+
+	@Autowired
+	IProveedoresPiezasDAO ppDao;
+	
+}

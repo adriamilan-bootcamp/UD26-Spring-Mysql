@@ -1,0 +1,21 @@
+package com.adriamilan.ppej.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.ppej.service.ProveedoresPiezasServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class ProveedoresPiezasController {
+
+	@Autowired
+	ProveedoresPiezasServiceImpl ppservice;
+
+	@GetMapping("/suministraciones")
+	public List<ProveedoresPiezas> listProveedoresPiezas() {
+		
+	}
+	
+}

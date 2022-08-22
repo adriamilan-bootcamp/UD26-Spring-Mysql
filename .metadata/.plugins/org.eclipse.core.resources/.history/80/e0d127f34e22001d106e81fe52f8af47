@@ -1,0 +1,7 @@
+package com.adriamilan.ppej.service;
+
+public interface IPiezaService {
+
+	public List<Pieza> listPiezas();
+	
+}

@@ -1,0 +1,5 @@
+package com.adriamilan.ppej.service;
+
+public interface IPiezaService {
+
+}

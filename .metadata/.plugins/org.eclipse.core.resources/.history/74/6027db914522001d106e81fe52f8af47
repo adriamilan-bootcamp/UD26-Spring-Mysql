@@ -1,0 +1,6 @@
+package com.adriamilan.ppej.dto;
+
+@Entity
+public class Piezas {
+
+}

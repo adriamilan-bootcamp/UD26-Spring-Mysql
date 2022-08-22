@@ -1,0 +1,9 @@
+package com.adriamilan.ppej.controller;
+
+@RestController
+@RequestMapping("/api")
+public class ProveedorController {
+
+	
+	
+}

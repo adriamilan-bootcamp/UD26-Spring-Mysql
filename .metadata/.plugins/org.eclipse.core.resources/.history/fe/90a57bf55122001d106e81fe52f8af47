@@ -1,0 +1,21 @@
+package com.adriamilan.ppej.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.ppej.service.PiezaServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class PiezaController {
+
+	@Autowired
+	PiezaServiceImpl pservice;
+	
+	@GetMapping("/piezas")
+	public List<Piezas> listPiezas() {
+		return pservice.listPiezas();
+	}
+	
+}

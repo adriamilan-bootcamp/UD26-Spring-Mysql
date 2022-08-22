@@ -1,0 +1,10 @@
+package com.adriamilan.ppej.controller;
+
+@RestController
+@RequestMapping("/api")
+public class PiezaController {
+
+	@Autowired
+	PiezaServiceImpl pservice;
+	
+}

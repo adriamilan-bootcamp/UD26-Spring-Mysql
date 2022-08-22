@@ -1,0 +1,13 @@
+package com.adriamilan.ppej.service;
+
+public interface IProveedorService {
+
+	public List<Proveedor> listProveedores();
+	
+	public Proveedor proveedorXID(Long id);
+	
+	public Proveedor saveProveedor(Proveedor proveedor);
+	
+	public Proveedor editProveedor(Proveedor proveedor)''
+	
+}
